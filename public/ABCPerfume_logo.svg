@@ -1,0 +1,35 @@
+<svg viewBox="0 0 480 170" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .brand-name {
+        font-family: Georgia, 'Times New Roman', serif;
+        font-size: 68px;
+        letter-spacing: 18px;
+        fill: #FAF7F0;
+      }
+      .brand-sub {
+        font-family: Georgia, 'Times New Roman', serif;
+        font-size: 13px;
+        letter-spacing: 12px;
+        fill: #BF9840;
+      }
+    </style>
+  </defs>
+
+  <!-- Top ornament: two arcs meeting a ringed dot -->
+  <path d="M 140 36 C 170 18, 205 18, 230 28" stroke="#BF9840" stroke-width="1" fill="none"/>
+  <path d="M 250 28 C 275 18, 310 18, 340 36" stroke="#BF9840" stroke-width="1" fill="none"/>
+  <circle cx="240" cy="28" r="3.5" fill="#BF9840"/>
+  <circle cx="240" cy="28" r="7" fill="none" stroke="#BF9840" stroke-width="0.9"/>
+
+  <!-- ABC brand name -->
+  <text x="240" y="106" text-anchor="middle" class="brand-name">ABC</text>
+
+  <!-- Separator: line · diamond · line -->
+  <line x1="78"  y1="121" x2="220" y2="121" stroke="#BF9840" stroke-width="0.8"/>
+  <polygon points="240,115 246,121 240,127 234,121" fill="#BF9840"/>
+  <line x1="260" y1="121" x2="402" y2="121" stroke="#BF9840" stroke-width="0.8"/>
+
+  <!-- PERFUME subtitle -->
+  <text x="240" y="152" text-anchor="middle" class="brand-sub">PERFUME</text>
+</svg>

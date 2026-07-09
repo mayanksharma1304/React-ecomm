@@ -1,0 +1,27 @@
+li {
+    list-style: none;
+}
+
+.cat-nav {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.primary-cat {
+    position: relative
+}
+
+.subcat-list {
+    padding-left: 40px;
+    position: absolute;
+    background-color: var(--color-bg);
+}
+
+nav {
+    padding-top: 10px;
+}
+
+.catName:hover {
+    color: var(--color-gold);
+}

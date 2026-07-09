@@ -1,0 +1,452 @@
+[
+  {
+    "id": "001", "name": "White Peony", "house": "ABC Blanc",
+    "price": 195, "size": "75ml", "type": "perfume",
+    "category": "floral", "gender": "for-her", "collection": "signature", "occasion": "daytime",
+    "isNew": false, "isBestseller": true, "inStock": true, "rating": 4.6, "reviews": 98,
+    "description": "A delicate yet luminous floral built around sun-warmed white peony petals, softened with powdery iris and skin-like musks.",
+    "notes": { "top": ["Lychee", "Green Tea", "Bergamot"], "middle": ["White Peony", "Iris", "Jasmine Sambac"], "base": ["White Musk", "Sandalwood", "Ambrette"] },
+    "image": "/images/product/white-peony.jpg"
+  },
+  {
+    "id": "002", "name": "La Nuit Rose", "house": "ABC Nuit",
+    "price": 245, "size": "100ml", "type": "perfume",
+    "category": "floral", "gender": "for-her", "collection": "signature", "occasion": "evening",
+    "isNew": false, "isBestseller": true, "inStock": true, "rating": 4.7, "reviews": 155,
+    "description": "An evening rose of extraordinary depth — Turkish rose absolute deepened with dark patchouli and night-blooming jasmine.",
+    "notes": { "top": ["Raspberry", "Pink Pepper", "Blackcurrant"], "middle": ["Turkish Rose", "Jasmine", "Peony"], "base": ["Patchouli", "Oud", "Vanilla Absolute"] },
+    "image": "/images/product/la-nuit-rose.jpg"
+  },
+  {
+    "id": "003", "name": "Sakura Dreams", "house": "ABC Blanc",
+    "price": 220, "size": "75ml", "type": "perfume",
+    "category": "floral", "gender": "for-her", "collection": "limited-edition", "occasion": "daytime",
+    "isNew": true, "isBestseller": false, "inStock": true, "rating": 4.5, "reviews": 42,
+    "description": "A fleeting Japanese spring captured in glass — delicate cherry blossom over a bed of warm sandalwood and sheer musk.",
+    "notes": { "top": ["Cherry Blossom", "Yuzu", "Bergamot"], "middle": ["Sakura", "Magnolia", "Peony"], "base": ["White Musk", "Sandalwood", "Ambrette"] },
+    "image": "/images/product/sakura-dreams.jpg"
+  },
+  {
+    "id": "004", "name": "Iris Nocturne", "house": "ABC Blanc",
+    "price": 260, "size": "100ml", "type": "perfume",
+    "category": "floral", "gender": "for-her", "collection": "signature", "occasion": "evening",
+    "isNew": false, "isBestseller": false, "inStock": true, "rating": 4.4, "reviews": 63,
+    "description": "Cool Florentine iris at nightfall — powdery, violet-tinged, and hauntingly quiet. A perfume for those who prefer silence.",
+    "notes": { "top": ["Violet Leaf", "Green Aldehydes", "Bergamot"], "middle": ["Iris Pallida", "Violet", "Orris Root"], "base": ["White Musk", "Cedarwood", "Ambrette"] },
+    "image": "/images/product/iris-nocturne.jpg"
+  },
+  {
+    "id": "005", "name": "Velvet Orchid", "house": "ABC Nuit",
+    "price": 215, "size": "75ml", "type": "perfume",
+    "category": "oriental", "gender": "for-her", "collection": "signature", "occasion": "evening",
+    "isNew": false, "isBestseller": false, "inStock": true, "rating": 4.5, "reviews": 87,
+    "description": "Black orchid draped in honey and vanilla — sumptuous, confident, built for an evening with no early ending.",
+    "notes": { "top": ["Bergamot", "Mandarin", "Honey"], "middle": ["Black Orchid", "Jasmine", "Rose"], "base": ["Vanilla", "Patchouli", "Sandalwood"] },
+    "image": "/images/product/velvet-orchid.jpg"
+  },
+  {
+    "id": "006", "name": "Gardenia Suprême", "house": "ABC Blanc",
+    "price": 235, "size": "100ml", "type": "perfume",
+    "category": "floral", "gender": "for-her", "collection": "signature", "occasion": "special",
+    "isNew": false, "isBestseller": false, "inStock": true, "rating": 4.3, "reviews": 51,
+    "description": "The gardenia in full bloom — creamy, tropical, and impossibly lush. A white floral that fills every room it enters.",
+    "notes": { "top": ["Peach", "Green Leaf", "Bergamot"], "middle": ["Gardenia", "Jasmine", "Tuberose"], "base": ["Sandalwood", "Musk", "Cedarwood"] },
+    "image": "/images/product/gardenia-supreme.jpg"
+  },
+  {
+    "id": "007", "name": "Rose de Mai", "house": "ABC Or",
+    "price": 310, "size": "50ml", "type": "perfume",
+    "category": "floral", "gender": "for-her", "collection": "limited-edition", "occasion": "special",
+    "isNew": true, "isBestseller": false, "inStock": true, "rating": 4.9, "reviews": 29,
+    "description": "Crafted with genuine Grasse rose de mai — available only during harvest season. No synthetic substitutes. No compromise.",
+    "notes": { "top": ["Pink Pepper", "Bergamot", "Lemon"], "middle": ["Rose de Mai", "Peony", "Jasmine"], "base": ["White Musk", "Ambrette", "Sandalwood"] },
+    "image": "/images/product/rose-de-mai.jpg"
+  },
+  {
+    "id": "008", "name": "Jasmine Mystique", "house": "ABC Blanc",
+    "price": 185, "size": "75ml", "type": "perfume",
+    "category": "floral", "gender": "for-her", "collection": "signature", "occasion": "daytime",
+    "isNew": false, "isBestseller": false, "inStock": true, "rating": 4.4, "reviews": 74,
+    "description": "Egyptian jasmine sambac in its most intoxicating form, lifted by citrus and anchored with sandalwood and soft amber.",
+    "notes": { "top": ["Bergamot", "Mandarin", "Green Leaves"], "middle": ["Jasmine Sambac", "Tuberose", "Orange Blossom"], "base": ["Musk", "Sandalwood", "Amber"] },
+    "image": "/images/product/jasmine-mystique.jpg"
+  },
+  {
+    "id": "009", "name": "Chypre Élégance", "house": "ABC Or",
+    "price": 275, "size": "100ml", "type": "perfume",
+    "category": "chypre", "gender": "for-her", "collection": "signature", "occasion": "evening",
+    "isNew": false, "isBestseller": false, "inStock": true, "rating": 4.6, "reviews": 56,
+    "description": "A classic chypre reborn — bergamot over a rose and jasmine heart, anchored by oakmoss and labdanum in the grand tradition.",
+    "notes": { "top": ["Bergamot", "Pink Grapefruit", "Aldehydes"], "middle": ["Rose", "Jasmine", "Geranium"], "base": ["Oakmoss", "Labdanum", "Patchouli"] },
+    "image": "/images/product/chypre-elegance.jpg"
+  },
+  {
+    "id": "010", "name": "Bergamote Rose", "house": "ABC Lumière",
+    "price": 175, "size": "75ml", "type": "perfume",
+    "category": "fresh", "gender": "for-her", "collection": "signature", "occasion": "daytime",
+    "isNew": false, "isBestseller": false, "inStock": true, "rating": 4.3, "reviews": 112,
+    "description": "Sunshine in a bottle — radiant bergamot and tea softening into a gentle rose heart. Perfect from morning through afternoon.",
+    "notes": { "top": ["Bergamot", "Lemon", "Green Tea"], "middle": ["Rose", "Geranium", "Peony"], "base": ["White Musk", "Ambrette", "Light Woods"] },
+    "image": "/images/product/bergamote-rose.jpg"
+  },
+  {
+    "id": "011", "name": "Musc Précieux", "house": "ABC Or",
+    "price": 255, "size": "100ml", "type": "perfume",
+    "category": "oriental", "gender": "for-her", "collection": "signature", "occasion": "evening",
+    "isNew": false, "isBestseller": false, "inStock": true, "rating": 4.5, "reviews": 68,
+    "description": "A skin-warming musk of extraordinary sophistication — ambergris and white musk over a floral heart, leaving a trail that lingers for hours.",
+    "notes": { "top": ["Cardamom", "Pink Pepper", "Aldehydes"], "middle": ["Rose", "Iris", "Jasmine"], "base": ["Ambergris", "White Musk", "Sandalwood"] },
+    "image": "/images/product/musc-precieux.jpg"
+  },
+  {
+    "id": "012", "name": "Dahlia Noir", "house": "ABC Nuit",
+    "price": 290, "size": "75ml", "type": "perfume",
+    "category": "chypre", "gender": "for-her", "collection": "limited-edition", "occasion": "evening",
+    "isNew": true, "isBestseller": false, "inStock": true, "rating": 4.7, "reviews": 38,
+    "description": "A dark floral chypre with an edge — violet and black dahlia over oakmoss and patchouli. For those who wear perfume as armour.",
+    "notes": { "top": ["Black Pepper", "Bergamot", "Grapefruit"], "middle": ["Black Dahlia", "Violet", "Geranium"], "base": ["Oakmoss", "Patchouli", "Vetiver"] },
+    "image": "/images/product/dahlia-noir.jpg"
+  },
+  {
+    "id": "013", "name": "Pétal de Soie", "house": "ABC Blanc",
+    "price": 195, "size": "75ml", "type": "perfume",
+    "category": "floral", "gender": "for-her", "collection": "signature", "occasion": "daytime",
+    "isNew": false, "isBestseller": false, "inStock": true, "rating": 4.2, "reviews": 44,
+    "description": "A powdery aldehyde floral in the classical French tradition — light as silk, lasting as memory.",
+    "notes": { "top": ["Aldehydes", "Bergamot", "Green Leaves"], "middle": ["Peony", "Rose", "Lily of the Valley"], "base": ["Sandalwood", "White Musk", "Amber"] },
+    "image": "/images/product/petal-de-soie.jpg"
+  },
+  {
+    "id": "014", "name": "Amber Rose", "house": "ABC Or",
+    "price": 235, "size": "100ml", "type": "perfume",
+    "category": "oriental", "gender": "for-her", "collection": "signature", "occasion": "evening",
+    "isNew": false, "isBestseller": false, "inStock": true, "rating": 4.5, "reviews": 91,
+    "description": "Saffron-dusted Turkish rose over a glowing amber and oud base. Rich, unapologetically opulent, deeply feminine.",
+    "notes": { "top": ["Bergamot", "Cinnamon", "Saffron"], "middle": ["Turkish Rose", "Jasmine", "Amber"], "base": ["Oud", "Sandalwood", "Vanilla"] },
+    "image": "/images/product/amber-rose.jpg"
+  },
+  {
+    "id": "015", "name": "Fig & Cassis", "house": "ABC Lumière",
+    "price": 170, "size": "75ml", "type": "perfume",
+    "category": "fresh", "gender": "for-her", "collection": "signature", "occasion": "daytime",
+    "isNew": false, "isBestseller": false, "inStock": true, "rating": 4.4, "reviews": 83,
+    "description": "A Provençal afternoon in a bottle — sun-ripened fig and blackcurrant bud over a clean white musk. Simple, irresistible.",
+    "notes": { "top": ["Blackcurrant", "Bergamot", "Green Leaf"], "middle": ["Fig", "Peony", "Rose"], "base": ["White Musk", "Cedarwood", "Amber"] },
+    "image": "/images/product/fig-cassis.jpg"
+  },
+  {
+    "id": "016", "name": "Cedar & Smoke", "house": "ABC Bois",
+    "price": 320, "size": "100ml", "type": "perfume",
+    "category": "woody", "gender": "for-him", "collection": "limited-edition", "occasion": "evening",
+    "isNew": false, "isBestseller": true, "inStock": true, "rating": 4.9, "reviews": 67,
+    "description": "Raw cedarwood and leather accord meet a trail of smoked vetiver. Austere, commanding, and entirely unforgettable.",
+    "notes": { "top": ["Grapefruit", "Black Pepper", "Juniper"], "middle": ["Cedarwood", "Leather", "Labdanum"], "base": ["Vetiver", "Smoked Woods", "Oakmoss"] },
+    "image": "/images/product/cedar-smoke.jpg"
+  },
+  {
+    "id": "017", "name": "Vetiver Noir", "house": "ABC Bois",
+    "price": 275, "size": "100ml", "type": "perfume",
+    "category": "woody", "gender": "for-him", "collection": "signature", "occasion": "evening",
+    "isNew": false, "isBestseller": false, "inStock": false, "rating": 4.8, "reviews": 89,
+    "description": "Haitian vetiver in its most complex form, surrounded by dark rum accord and volcanic mineral facets. The sophisticate's choice.",
+    "notes": { "top": ["Dark Rum", "Ginger", "Cardamom"], "middle": ["Vetiver", "Tobacco Leaf", "Birch"], "base": ["Mineral Accord", "Dark Musk", "Cistus"] },
+    "image": "/images/product/vetiver-noir.jpg"
+  },
+  {
+    "id": "018", "name": "Oud Imperiale", "house": "ABC Or",
+    "price": 380, "size": "100ml", "type": "perfume",
+    "category": "oriental", "gender": "for-him", "collection": "limited-edition", "occasion": "special",
+    "isNew": true, "isBestseller": false, "inStock": true, "rating": 4.8, "reviews": 22,
+    "description": "Cambodian oud at its most regal — saffron-laced, leather-edged, and finished with a trail of ambergris that could fill a room.",
+    "notes": { "top": ["Saffron", "Rose", "Pink Pepper"], "middle": ["Oud", "Leather", "Jasmine"], "base": ["Ambergris", "Sandalwood", "Musk"] },
+    "image": "/images/product/oud-imperiale.jpg"
+  },
+  {
+    "id": "019", "name": "Tobacco & Leather", "house": "ABC Bois",
+    "price": 295, "size": "100ml", "type": "perfume",
+    "category": "woody", "gender": "for-him", "collection": "signature", "occasion": "evening",
+    "isNew": false, "isBestseller": false, "inStock": true, "rating": 4.6, "reviews": 78,
+    "description": "Tobacco flower and birch tar over dark amber — uncompromising masculinity with just enough warmth to draw you in.",
+    "notes": { "top": ["Bergamot", "Cardamom", "Black Pepper"], "middle": ["Tobacco Flower", "Leather", "Birch"], "base": ["Dark Musk", "Vetiver", "Amber"] },
+    "image": "/images/product/tobacco-leather.jpg"
+  },
+  {
+    "id": "020", "name": "Bois Sauvage", "house": "ABC Bois",
+    "price": 265, "size": "100ml", "type": "perfume",
+    "category": "woody", "gender": "for-him", "collection": "signature", "occasion": "daytime",
+    "isNew": false, "isBestseller": false, "inStock": true, "rating": 4.4, "reviews": 61,
+    "description": "A walk through an ancient forest — pine, cypress, and cedarwood so vivid you can almost feel the bark under your fingertips.",
+    "notes": { "top": ["Pine Needle", "Bergamot", "Juniper"], "middle": ["Cedarwood", "Cypress", "Guaiac Wood"], "base": ["Vetiver", "Musk", "Amber"] },
+    "image": "/images/product/bois-sauvage.jpg"
+  },
+  {
+    "id": "021", "name": "Aqua Classique", "house": "ABC Lumière",
+    "price": 185, "size": "75ml", "type": "perfume",
+    "category": "fresh", "gender": "for-him", "collection": "signature", "occasion": "daytime",
+    "isNew": false, "isBestseller": false, "inStock": true, "rating": 4.3, "reviews": 104,
+    "description": "Refined aquatic freshness — sea salt and bergamot opening into lavender and rosemary, grounded with soft cedarwood.",
+    "notes": { "top": ["Sea Salt", "Bergamot", "Lemon"], "middle": ["Lavender", "Geranium", "Rosemary"], "base": ["Cedarwood", "White Musk", "Ambergris"] },
+    "image": "/images/product/aqua-classique.jpg"
+  },
+  {
+    "id": "022", "name": "Grey Flannel", "house": "ABC Bois",
+    "price": 240, "size": "100ml", "type": "perfume",
+    "category": "fougere", "gender": "for-him", "collection": "signature", "occasion": "daytime",
+    "isNew": false, "isBestseller": false, "inStock": true, "rating": 4.5, "reviews": 59,
+    "description": "The gentleman's fougère — violet leaf and lavender over geranium and oakmoss. The scent of an immaculate Sunday morning.",
+    "notes": { "top": ["Bergamot", "Violet Leaf", "Lavender"], "middle": ["Geranium", "Carnation", "Iris"], "base": ["Oakmoss", "Vetiver", "Sandalwood"] },
+    "image": "/images/product/grey-flannel.jpg"
+  },
+  {
+    "id": "023", "name": "Cuir de Russie", "house": "ABC Or",
+    "price": 340, "size": "100ml", "type": "perfume",
+    "category": "leather", "gender": "for-him", "collection": "limited-edition", "occasion": "evening",
+    "isNew": false, "isBestseller": false, "inStock": true, "rating": 4.7, "reviews": 34,
+    "description": "Birch tar leather in the Russian tradition — raw and refined in equal measure, with an aldehydic sharpness that cuts clean.",
+    "notes": { "top": ["Aldehydes", "Bergamot", "Neroli"], "middle": ["Leather", "Birch Tar", "Jasmine"], "base": ["Sandalwood", "Musk", "Amber"] },
+    "image": "/images/product/cuir-de-russie.jpg"
+  },
+  {
+    "id": "024", "name": "Black Pepper Oud", "house": "ABC Noir",
+    "price": 310, "size": "100ml", "type": "perfume",
+    "category": "oriental", "gender": "for-him", "collection": "signature", "occasion": "evening",
+    "isNew": false, "isBestseller": false, "inStock": true, "rating": 4.6, "reviews": 48,
+    "description": "Fierce black pepper and cardamom spark against a resinous oud core, finishing on a trail of smoked ambergris and sandalwood.",
+    "notes": { "top": ["Black Pepper", "Cardamom", "Ginger"], "middle": ["Oud", "Rose", "Incense"], "base": ["Sandalwood", "Ambergris", "Dark Musk"] },
+    "image": "/images/product/black-pepper-oud.jpg"
+  },
+  {
+    "id": "025", "name": "Pine & Frost", "house": "ABC Lumière",
+    "price": 175, "size": "75ml", "type": "perfume",
+    "category": "fresh", "gender": "for-him", "collection": "seasonal", "occasion": "daytime",
+    "isNew": true, "isBestseller": false, "inStock": true, "rating": 4.4, "reviews": 37,
+    "description": "The clean chill of a winter forest — eucalyptus and pine over lavender, grounded with crisp cedarwood.",
+    "notes": { "top": ["Eucalyptus", "Pine", "Bergamot"], "middle": ["Fir Balsam", "Juniper", "Lavender"], "base": ["White Musk", "Cedarwood", "Ambrette"] },
+    "image": "/images/product/pine-frost.jpg"
+  },
+  {
+    "id": "026", "name": "Sandalwood Reserve", "house": "ABC Bois",
+    "price": 285, "size": "100ml", "type": "perfume",
+    "category": "woody", "gender": "for-him", "collection": "signature", "occasion": "daytime",
+    "isNew": false, "isBestseller": false, "inStock": true, "rating": 4.7, "reviews": 72,
+    "description": "Mysore sandalwood — the real thing. Creamy, warm, utterly smooth. Accented with cardamom and finished with amber.",
+    "notes": { "top": ["Cardamom", "Pink Pepper", "Grapefruit"], "middle": ["Mysore Sandalwood", "Iris", "Cedarwood"], "base": ["Amber", "Musk", "Vetiver"] },
+    "image": "/images/product/sandalwood-reserve.jpg"
+  },
+  {
+    "id": "027", "name": "Cognac & Tobacco", "house": "ABC Noir",
+    "price": 355, "size": "100ml", "type": "perfume",
+    "category": "oriental", "gender": "for-him", "collection": "limited-edition", "occasion": "evening",
+    "isNew": false, "isBestseller": false, "inStock": true, "rating": 4.8, "reviews": 45,
+    "description": "Cognac, tobacco and dark oakmoss — a late-night accord for those who consider the after-dinner hour the real beginning of the evening.",
+    "notes": { "top": ["Bergamot", "Black Pepper", "Rum"], "middle": ["Tobacco", "Cognac", "Leather"], "base": ["Dark Amber", "Oakmoss", "Musk"] },
+    "image": "/images/product/cognac-tobacco.jpg"
+  },
+  {
+    "id": "028", "name": "Midnight Accord", "house": "ABC Noir",
+    "price": 285, "size": "100ml", "type": "perfume",
+    "category": "oriental", "gender": "unisex", "collection": "signature", "occasion": "evening",
+    "isNew": false, "isBestseller": true, "inStock": true, "rating": 4.8, "reviews": 124,
+    "description": "A hypnotic blend of dark resins and smoky incense. Midnight Accord is a statement for those who command every room they enter.",
+    "notes": { "top": ["Black Pepper", "Cardamom", "Bergamot"], "middle": ["Oud", "Rose Absolute", "Incense"], "base": ["Ambergris", "Sandalwood", "Dark Musk"] },
+    "image": "/images/product/midnight-accord.jpg"
+  },
+  {
+    "id": "029", "name": "Citrus Bloom", "house": "ABC Lumière",
+    "price": 165, "size": "75ml", "type": "perfume",
+    "category": "fresh", "gender": "unisex", "collection": "signature", "occasion": "daytime",
+    "isNew": false, "isBestseller": false, "inStock": true, "rating": 4.5, "reviews": 210,
+    "description": "Sunlit Sicilian citrus opens into a sheer floral heart, landing on a warm base of cashmere wood. Effortless and radiant.",
+    "notes": { "top": ["Sicilian Lemon", "Neroli", "Mandarin"], "middle": ["Orange Blossom", "White Tea", "Magnolia"], "base": ["Cashmere Wood", "White Musk", "Amber"] },
+    "image": "/images/product/citrus-bloom.jpg"
+  },
+  {
+    "id": "030", "name": "Amber Soleil", "house": "ABC Or",
+    "price": 210, "size": "75ml", "type": "perfume",
+    "category": "oriental", "gender": "unisex", "collection": "limited-edition", "occasion": "special",
+    "isNew": false, "isBestseller": false, "inStock": true, "rating": 4.6, "reviews": 132,
+    "description": "Warm golden amber wrapped in vanilla and the faintest trace of frankincense. Rich without being heavy. Opulent without trying.",
+    "notes": { "top": ["Mandarin", "Cinnamon", "Clove"], "middle": ["Frankincense", "Amber", "Heliotrope"], "base": ["Vanilla Absolute", "Tonka Bean", "Benzoin"] },
+    "image": "/images/product/amber-soleil.jpg"
+  },
+  {
+    "id": "031", "name": "Marine Mist", "house": "ABC Lumière",
+    "price": 155, "size": "75ml", "type": "perfume",
+    "category": "aquatic", "gender": "unisex", "collection": "signature", "occasion": "daytime",
+    "isNew": false, "isBestseller": false, "inStock": true, "rating": 4.4, "reviews": 178,
+    "description": "Salt air and sea foam caught in a bottle. Clean, meditative, and endlessly wearable — the scent of an open horizon.",
+    "notes": { "top": ["Sea Salt", "Ozonic Accord", "Green Leaves"], "middle": ["Aquatic Florals", "Ambrette", "Driftwood"], "base": ["Musk", "Cedarwood", "White Amber"] },
+    "image": "/images/product/marine-mist.jpg"
+  },
+  {
+    "id": "032", "name": "Oud Blanc", "house": "ABC Or",
+    "price": 325, "size": "100ml", "type": "perfume",
+    "category": "oriental", "gender": "unisex", "collection": "signature", "occasion": "evening",
+    "isNew": false, "isBestseller": false, "inStock": true, "rating": 4.7, "reviews": 95,
+    "description": "White oud — lighter, cleaner, more luminous than its darker cousin. Rose and iris soften it; ambergris gives it a heartbeat.",
+    "notes": { "top": ["Rose", "Bergamot", "Pink Pepper"], "middle": ["White Oud", "Jasmine", "Iris"], "base": ["Sandalwood", "White Musk", "Ambergris"] },
+    "image": "/images/product/oud-blanc.jpg"
+  },
+  {
+    "id": "033", "name": "Bergamot Cedar", "house": "ABC Lumière",
+    "price": 180, "size": "75ml", "type": "perfume",
+    "category": "fresh", "gender": "unisex", "collection": "signature", "occasion": "daytime",
+    "isNew": false, "isBestseller": false, "inStock": true, "rating": 4.3, "reviews": 88,
+    "description": "The minimal duo — sharp bergamot and dry cedar, nothing more. Confidence in its most stripped-back form.",
+    "notes": { "top": ["Bergamot", "Lemon", "Green Leaves"], "middle": ["Cedarwood", "Geranium", "Petitgrain"], "base": ["White Musk", "Amber", "Vetiver"] },
+    "image": "/images/product/bergamot-cedar.jpg"
+  },
+  {
+    "id": "034", "name": "Saffron Myrrh", "house": "ABC Or",
+    "price": 345, "size": "100ml", "type": "perfume",
+    "category": "oriental", "gender": "unisex", "collection": "limited-edition", "occasion": "special",
+    "isNew": true, "isBestseller": false, "inStock": true, "rating": 4.8, "reviews": 18,
+    "description": "Ancient resins for a modern age — saffron and pink pepper ignite a smouldering myrrh and oud core. Biblical in its richness.",
+    "notes": { "top": ["Saffron", "Pink Pepper", "Ginger"], "middle": ["Myrrh", "Rose", "Incense"], "base": ["Oud", "Ambergris", "Dark Musk"] },
+    "image": "/images/product/saffron-myrrh.jpg"
+  },
+  {
+    "id": "035", "name": "Green Vetiver", "house": "ABC Bois",
+    "price": 255, "size": "100ml", "type": "perfume",
+    "category": "woody", "gender": "unisex", "collection": "signature", "occasion": "daytime",
+    "isNew": false, "isBestseller": false, "inStock": true, "rating": 4.5, "reviews": 66,
+    "description": "Vetiver at its most vibrant — green, earthy, citrus-lit, before it settles into a warm woody murmur.",
+    "notes": { "top": ["Bergamot", "Grapefruit", "Lemon"], "middle": ["Vetiver", "Geranium", "Cedar"], "base": ["Oakmoss", "Musk", "Amber"] },
+    "image": "/images/product/green-vetiver.jpg"
+  },
+  {
+    "id": "036", "name": "Hinoki Forest", "house": "ABC Bois",
+    "price": 270, "size": "100ml", "type": "perfume",
+    "category": "woody", "gender": "unisex", "collection": "signature", "occasion": "daytime",
+    "isNew": false, "isBestseller": false, "inStock": true, "rating": 4.6, "reviews": 53,
+    "description": "Japanese hinoki cypress — the wood of temples and bathhouses. Meditative, clean, and unexpectedly addictive.",
+    "notes": { "top": ["Yuzu", "Bergamot", "Green Leaf"], "middle": ["Hinoki Wood", "Cypress", "Iris"], "base": ["Sandalwood", "White Musk", "Amber"] },
+    "image": "/images/product/hinoki-forest.jpg"
+  },
+  {
+    "id": "037", "name": "Neroli Infiniment", "house": "ABC Lumière",
+    "price": 195, "size": "75ml", "type": "perfume",
+    "category": "fresh", "gender": "unisex", "collection": "signature", "occasion": "daytime",
+    "isNew": false, "isBestseller": false, "inStock": true, "rating": 4.4, "reviews": 79,
+    "description": "Neroli distilled to its purest form — bright, honeyed, green — unfolding over an endless white musk drydown.",
+    "notes": { "top": ["Neroli", "Bergamot", "Petitgrain"], "middle": ["Orange Blossom", "Jasmine", "Rose"], "base": ["White Musk", "Sandalwood", "Ambrette"] },
+    "image": "/images/product/neroli-infiniment.jpg"
+  },
+  {
+    "id": "038", "name": "Patchouli Précieux", "house": "ABC Noir",
+    "price": 245, "size": "100ml", "type": "perfume",
+    "category": "woody", "gender": "unisex", "collection": "signature", "occasion": "evening",
+    "isNew": false, "isBestseller": false, "inStock": true, "rating": 4.5, "reviews": 57,
+    "description": "Dark, aged patchouli softened by rose and geranium. The kind of perfume you wear when you want to be remembered.",
+    "notes": { "top": ["Bergamot", "Pink Pepper", "Cardamom"], "middle": ["Patchouli Heart", "Rose", "Geranium"], "base": ["Dark Musk", "Sandalwood", "Amber"] },
+    "image": "/images/product/patchouli-precieux.jpg"
+  },
+  {
+    "id": "039", "name": "Encens Sacré", "house": "ABC Or",
+    "price": 315, "size": "100ml", "type": "perfume",
+    "category": "oriental", "gender": "unisex", "collection": "limited-edition", "occasion": "special",
+    "isNew": false, "isBestseller": false, "inStock": true, "rating": 4.7, "reviews": 41,
+    "description": "Frankincense, elemi and myrrh — the sacred trio, resinous and transformative. Wear it like a ritual.",
+    "notes": { "top": ["Frankincense", "Elemi", "Bergamot"], "middle": ["Incense", "Labdanum", "Myrrh"], "base": ["Oud", "Sandalwood", "Dark Musk"] },
+    "image": "/images/product/encens-sacre.jpg"
+  },
+  {
+    "id": "040", "name": "Sel de Mer", "house": "ABC Lumière",
+    "price": 165, "size": "75ml", "type": "perfume",
+    "category": "aquatic", "gender": "unisex", "collection": "signature", "occasion": "daytime",
+    "isNew": false, "isBestseller": false, "inStock": true, "rating": 4.3, "reviews": 94,
+    "description": "Not the sea itself but the memory of it — salt, warm skin, and the trace of driftwood. Summer in a single breath.",
+    "notes": { "top": ["Sea Salt", "Bergamot", "Aldehyde"], "middle": ["Marine Accord", "Driftwood", "Ambrette"], "base": ["White Musk", "Cedarwood", "Amber"] },
+    "image": "/images/product/sel-de-mer.jpg"
+  },
+  {
+    "id": "041", "name": "Vanille Noire", "house": "ABC Noir",
+    "price": 225, "size": "100ml", "type": "perfume",
+    "category": "gourmand", "gender": "unisex", "collection": "signature", "occasion": "evening",
+    "isNew": false, "isBestseller": false, "inStock": true, "rating": 4.6, "reviews": 118,
+    "description": "Madagascar vanilla absolute, darkened with cardamom and black pepper until it becomes something entirely unexpected — gourmand without being sweet.",
+    "notes": { "top": ["Bergamot", "Cardamom", "Black Pepper"], "middle": ["Vanilla Orchid", "Heliotrope", "Jasmine"], "base": ["Vanilla Absolute", "Tonka Bean", "Musk"] },
+    "image": "/images/product/vanille-noire.jpg"
+  },
+  {
+    "id": "042", "name": "Iris Gris", "house": "ABC Or",
+    "price": 280, "size": "75ml", "type": "perfume",
+    "category": "floral", "gender": "unisex", "collection": "limited-edition", "occasion": "daytime",
+    "isNew": true, "isBestseller": false, "inStock": true, "rating": 4.6, "reviews": 26,
+    "description": "Grey iris — neither fully floral nor fully powdery, it exists in the space between. Elusive, androgynous, quietly magnetic.",
+    "notes": { "top": ["Aldehydes", "Bergamot", "Violet Leaf"], "middle": ["Iris Pallida", "Violet", "Orris"], "base": ["White Musk", "Sandalwood", "Ambrette"] },
+    "image": "/images/product/iris-gris.jpg"
+  },
+  {
+    "id": "043", "name": "Discovery Set — For Her", "house": "ABC Blanc",
+    "price": 120, "size": "5 × 10ml", "type": "gift-set",
+    "category": "gift-for-her", "gender": "for-her", "collection": "signature", "occasion": "special",
+    "isNew": false, "isBestseller": false, "inStock": true, "rating": 4.7, "reviews": 143,
+    "description": "Five of our most beloved feminine fragrances in discovery size. The perfect introduction to the ABC Perfumes world — or a thoughtful gift for someone just beginning theirs.",
+    "contents": ["White Peony", "La Nuit Rose", "Bergamote Rose", "Gardenia Suprême", "Jasmine Mystique"],
+    "image": "/images/product/discovery-set-her.jpg"
+  },
+  {
+    "id": "044", "name": "Discovery Set — For Him", "house": "ABC Bois",
+    "price": 120, "size": "5 × 10ml", "type": "gift-set",
+    "category": "gift-for-him", "gender": "for-him", "collection": "signature", "occasion": "special",
+    "isNew": false, "isBestseller": false, "inStock": true, "rating": 4.6, "reviews": 98,
+    "description": "Five signature masculine fragrances in discovery size — from the forest-dark Cedar & Smoke to the refined Grey Flannel.",
+    "contents": ["Cedar & Smoke", "Vetiver Noir", "Grey Flannel", "Sandalwood Reserve", "Aqua Classique"],
+    "image": "/images/product/discovery-set-him.jpg"
+  },
+  {
+    "id": "045", "name": "The Couples Collection", "house": "ABC Or",
+    "price": 350, "size": "2 × 75ml", "type": "gift-set",
+    "category": "gift-couples", "gender": "unisex", "collection": "limited-edition", "occasion": "special",
+    "isNew": false, "isBestseller": false, "inStock": true, "rating": 4.8, "reviews": 62,
+    "description": "Two complementary fragrances conceived as a pair — one for her, one for him, yet made to harmonise when worn together.",
+    "contents": ["La Nuit Rose", "Midnight Accord"],
+    "image": "/images/product/couples-collection.jpg"
+  },
+  {
+    "id": "046", "name": "Luxury Duo — Her", "house": "ABC Or",
+    "price": 380, "size": "2 × 100ml", "type": "gift-set",
+    "category": "gift-luxury", "gender": "for-her", "collection": "signature", "occasion": "special",
+    "isNew": false, "isBestseller": false, "inStock": true, "rating": 4.7, "reviews": 38,
+    "description": "Two full-size icons in a hand-finished lacquer box — the ultimate feminine gift for a woman who knows exactly what she wants.",
+    "contents": ["White Peony", "Velvet Orchid"],
+    "image": "/images/product/luxury-duo-her.jpg"
+  },
+  {
+    "id": "047", "name": "Luxury Duo — Him", "house": "ABC Or",
+    "price": 380, "size": "2 × 100ml", "type": "gift-set",
+    "category": "gift-luxury", "gender": "for-him", "collection": "signature", "occasion": "special",
+    "isNew": false, "isBestseller": true, "inStock": true, "rating": 4.7, "reviews": 31,
+    "description": "Two full-size masterpieces in a hand-finished lacquer box — the definitive statement gift for a man of distinction.",
+    "contents": ["Cedar & Smoke", "Sandalwood Reserve"],
+    "image": "/images/product/luxury-duo-him.jpg"
+  },
+  {
+    "id": "048", "name": "The Signature Set", "house": "ABC Or",
+    "price": 450, "size": "6 × 10ml", "type": "gift-set",
+    "category": "gift-luxury", "gender": "unisex", "collection": "signature", "occasion": "special",
+    "isNew": false, "isBestseller": true, "inStock": true, "rating": 4.9, "reviews": 74,
+    "description": "Six of our most iconic fragrances, presented in a numbered collector's box. The definitive ABC Perfumes introduction.",
+    "contents": ["White Peony", "Midnight Accord", "Cedar & Smoke", "Amber Soleil", "Citrus Bloom", "Oud Blanc"],
+    "image": "/images/product/signature-set.jpg"
+  },
+  {
+    "id": "049", "name": "Mini Collection", "house": "ABC Lumière",
+    "price": 95, "size": "4 × 7.5ml", "type": "gift-set",
+    "category": "gift-discovery", "gender": "unisex", "collection": "signature", "occasion": "special",
+    "isNew": false, "isBestseller": false, "inStock": true, "rating": 4.5, "reviews": 186,
+    "description": "Four fresh favourites in miniature — ideal for travel, or for those who refuse to commit to just one perfume.",
+    "contents": ["Citrus Bloom", "Marine Mist", "Bergamot Cedar", "Neroli Infiniment"],
+    "image": "/images/product/mini-collection.jpg"
+  },
+  {
+    "id": "050", "name": "Seasonal Gift Box", "house": "ABC Or",
+    "price": 275, "size": "3 × 30ml", "type": "gift-set",
+    "category": "gift-for-her", "gender": "for-her", "collection": "seasonal", "occasion": "special",
+    "isNew": true, "isBestseller": false, "inStock": true, "rating": 4.6, "reviews": 19,
+    "description": "Three limited seasonal fragrances presented in a collector's gift box, released once per year. This season: Rose de Mai, Sakura Dreams and Iris Gris.",
+    "contents": ["Rose de Mai", "Sakura Dreams", "Iris Gris"],
+    "image": "/images/product/seasonal-gift-box.jpg"
+  }
+]
