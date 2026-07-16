@@ -27,6 +27,20 @@ export default function Homepage() {
           })}
         </div>
       </section>
+      <section className="collection-spotlight-wrapper">
+        <div className="spotlight-heading">
+          <h2> SPOTLIGHT </h2>
+        </div>
+        <div className="spotlight-carousel">
+          {PRODUCTS.filter((product) => {
+            return product.collection === "signature";
+          })
+            .slice(0, 6)
+            .map((prod) => {
+              return <ProductTile product={prod} key={prod.id} />;
+            })}
+        </div>
+      </section>
     </div>
   );
 }

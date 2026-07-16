@@ -33,7 +33,7 @@
     "isNew": false, "isBestseller": false, "inStock": true, "rating": 4.4, "reviews": 63,
     "description": "Cool Florentine iris at nightfall — powdery, violet-tinged, and hauntingly quiet. A perfume for those who prefer silence.",
     "notes": { "top": ["Violet Leaf", "Green Aldehydes", "Bergamot"], "middle": ["Iris Pallida", "Violet", "Orris Root"], "base": ["White Musk", "Cedarwood", "Ambrette"] },
-    "image": "/images/product/iris-nocturne.jpg"
+    "image": "/images/product/004.jpg"
   },
   {
     "id": "005", "name": "Velvet Orchid", "house": "ABC Nuit",
@@ -42,7 +42,7 @@
     "isNew": false, "isBestseller": false, "inStock": true, "rating": 4.5, "reviews": 87,
     "description": "Black orchid draped in honey and vanilla — sumptuous, confident, built for an evening with no early ending.",
     "notes": { "top": ["Bergamot", "Mandarin", "Honey"], "middle": ["Black Orchid", "Jasmine", "Rose"], "base": ["Vanilla", "Patchouli", "Sandalwood"] },
-    "image": "/images/product/velvet-orchid.jpg"
+    "image": "/images/product/005.jpg"
   },
   {
     "id": "006", "name": "Gardenia Suprême", "house": "ABC Blanc",
@@ -51,7 +51,7 @@
     "isNew": false, "isBestseller": false, "inStock": true, "rating": 4.3, "reviews": 51,
     "description": "The gardenia in full bloom — creamy, tropical, and impossibly lush. A white floral that fills every room it enters.",
     "notes": { "top": ["Peach", "Green Leaf", "Bergamot"], "middle": ["Gardenia", "Jasmine", "Tuberose"], "base": ["Sandalwood", "Musk", "Cedarwood"] },
-    "image": "/images/product/gardenia-supreme.jpg"
+    "image": "/images/product/006.jpg"
   },
   {
     "id": "007", "name": "Rose de Mai", "house": "ABC Or",
@@ -69,7 +69,7 @@
     "isNew": false, "isBestseller": false, "inStock": true, "rating": 4.4, "reviews": 74,
     "description": "Egyptian jasmine sambac in its most intoxicating form, lifted by citrus and anchored with sandalwood and soft amber.",
     "notes": { "top": ["Bergamot", "Mandarin", "Green Leaves"], "middle": ["Jasmine Sambac", "Tuberose", "Orange Blossom"], "base": ["Musk", "Sandalwood", "Amber"] },
-    "image": "/images/product/jasmine-mystique.jpg"
+    "image": "/images/product/008.jpg"
   },
   {
     "id": "009", "name": "Chypre Élégance", "house": "ABC Or",
