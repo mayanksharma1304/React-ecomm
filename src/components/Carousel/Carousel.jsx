@@ -1,6 +1,7 @@
 import { MoveLeft, MoveRight } from "lucide-react";
 import ProductTile from "../ProductTile/ProductTile";
 import { useState, useRef } from "react";
+import "./Carousel.css";
 
 export default function Carousel({ heading, products, ref }) {
   const scrollLeft = () => {
