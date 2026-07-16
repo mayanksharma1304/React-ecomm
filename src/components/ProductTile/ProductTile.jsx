@@ -6,7 +6,7 @@ export default function ProductTile({ product }) {
   return (
     <div className="product-tile">
       <div className="productimg">
-        <img src={product.image} alt="product image" />
+        <img src={product.image} alt="product image" draggable={false} />
       </div>
       <div className="product-info">
         <p className="product-name">{product.name}</p>

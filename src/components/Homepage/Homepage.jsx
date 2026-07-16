@@ -1,8 +1,12 @@
+import Carousel from "../Carousel/Carousel";
 import "./Homepage.css";
+import { useRef } from "react";
 import PRODUCTS from "../../data/products.json";
-import ProductTile from "../ProductTile/ProductTile";
 
 export default function Homepage() {
+  let bestsellerRef = useRef(null);
+  let spotLightRef = useRef(null);
+
   return (
     <div className="homediv">
       <section className="heroimage">
@@ -15,32 +19,20 @@ export default function Homepage() {
           ingredients the world has to offer.
         </p>
       </section>
-      <section className="bestseller-carousel-wrapper">
-        <div className="bestseller-heading">
-          <h2>BEST SELLERS</h2>
-        </div>
-        <div className="bestseller-carousel">
-          {PRODUCTS.filter((product) => {
-            return product.isBestseller == true;
-          }).map((prod) => {
-            return <ProductTile product={prod} key={prod.id} />;
-          })}
-        </div>
-      </section>
-      <section className="collection-spotlight-wrapper">
-        <div className="spotlight-heading">
-          <h2> SPOTLIGHT </h2>
-        </div>
-        <div className="spotlight-carousel">
-          {PRODUCTS.filter((product) => {
-            return product.collection === "signature";
-          })
-            .slice(0, 6)
-            .map((prod) => {
-              return <ProductTile product={prod} key={prod.id} />;
-            })}
-        </div>
-      </section>
+      <Carousel
+        products={PRODUCTS.filter((product) => {
+          return product.isBestseller == true;
+        })}
+        heading="BEST SELLERS"
+        ref={bestsellerRef}
+      />
+      <Carousel
+        products={PRODUCTS.filter((product) => {
+          return product.collection === "signature";
+        }).slice(0, 6)}
+        heading="SPOTLIGHT"
+        ref={spotLightRef}
+      />
     </div>
   );
 }

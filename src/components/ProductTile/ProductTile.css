@@ -4,6 +4,8 @@
     color: var(--color-text);
     overflow-wrap: break-word;
     text-align: center;
+    /* "align yourself here when snapped", start means each tile's left edge aligns with the container's left edge once it snaps into place.*/
+    scroll-snap-align: start;
 }
 
 .productimg img {

@@ -1,6 +1,7 @@
 import "./Header.css";
 import Navigation from "../Navigation/Navigation";
 import { Search, User, ShoppingBag } from "lucide-react";
+import Logo from "../../assets/ABCPerfume_logo.svg?react";
 
 export default function Header() {
   return (
@@ -11,7 +12,7 @@ export default function Header() {
           <Search color="#BF9840" size={18} className="search-icon" />
         </div>
         <div className="logo-wrap">
-          <img className="logo" src="./ABCPerfume_logo.svg" alt="brand logo" />
+          <Logo className="logo" />
         </div>
         <div className="right-icons">
           <span id="profile">
