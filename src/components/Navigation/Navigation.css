@@ -25,3 +25,8 @@ nav {
 .catName:hover {
     color: var(--color-gold);
 }
+
+.catName a {
+    color: inherit;
+    text-decoration: none;
+}

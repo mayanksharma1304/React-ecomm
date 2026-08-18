@@ -1,6 +1,7 @@
 import CATEGORIES from "../../data/categories.json";
 import { useState } from "react";
 import "./Navigation.css";
+import { Link } from "react-router-dom";
 
 export default function Navigation() {
   const [selectedCat, setSelectedCat] = useState("");
@@ -25,12 +26,16 @@ export default function Navigation() {
               onMouseLeave={handleMouseLeave}
               className="primary-cat"
             >
-              <span className="catName">{rootCat.name}</span>
+              <span className="catName">
+                <Link to={`category/${rootCat.id}`}>{rootCat.name}</Link>
+              </span>
               <ul hidden={selectedCat != rootCat.id} className="subcat-list">
                 {rootCat.subcategories.map((subCat) => {
                   return (
                     <li key={subCat.id} name={subCat.name}>
-                      <span className="catName">{subCat.name}</span>
+                      <span className="catName">
+                        <Link to={`category/${subCat.id}`}>{subCat.name}</Link>
+                      </span>
                     </li>
                   );
                 })}

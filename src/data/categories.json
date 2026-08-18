@@ -1,89 +1,206 @@
 [
   {
-    "id": "new-arrivals",
+    "id": "newarrivals",
     "name": "New Arrivals",
     "subcategories": [
-      { "id": "this-season",  "name": "This Season" },
-      { "id": "just-launched","name": "Just Launched" },
-      { "id": "coming-soon",  "name": "Coming Soon" }
+      {
+        "id": "newarrivals-thisseason",
+        "name": "This Season"
+      },
+      {
+        "id": "newarrivals-justlaunched",
+        "name": "Just Launched"
+      },
+      {
+        "id": "newarrivals-comingsoon",
+        "name": "Coming Soon"
+      }
     ]
   },
   {
-    "id": "for-her",
+    "id": "forher",
     "name": "For Her",
     "subcategories": [
-      { "id": "floral",   "name": "Floral" },
-      { "id": "oriental", "name": "Oriental" },
-      { "id": "woody",    "name": "Woody" },
-      { "id": "fresh",    "name": "Fresh" },
-      { "id": "chypre",  "name": "Chypre" }
+      {
+        "id": "forher-floral",
+        "name": "Floral"
+      },
+      {
+        "id": "forher-oriental",
+        "name": "Oriental"
+      },
+      {
+        "id": "forher-woody",
+        "name": "Woody"
+      },
+      {
+        "id": "forher-fresh",
+        "name": "Fresh"
+      },
+      {
+        "id": "forher-chypre",
+        "name": "Chypre"
+      }
     ]
   },
   {
-    "id": "for-him",
+    "id": "forhim",
     "name": "For Him",
     "subcategories": [
-      { "id": "woody",    "name": "Woody" },
-      { "id": "oriental", "name": "Oriental" },
-      { "id": "fresh",    "name": "Fresh" },
-      { "id": "fougere",  "name": "Fougère" },
-      { "id": "leather",  "name": "Leather" }
+      {
+        "id": "forhim-woody",
+        "name": "Woody"
+      },
+      {
+        "id": "forhim-oriental",
+        "name": "Oriental"
+      },
+      {
+        "id": "forhim-fresh",
+        "name": "Fresh"
+      },
+      {
+        "id": "forhim-fougere",
+        "name": "Fougère"
+      },
+      {
+        "id": "forhim-leather",
+        "name": "Leather"
+      }
     ]
   },
   {
     "id": "unisex",
     "name": "Unisex",
     "subcategories": [
-      { "id": "floral",    "name": "Floral" },
-      { "id": "oriental",  "name": "Oriental" },
-      { "id": "woody",     "name": "Woody" },
-      { "id": "fresh",     "name": "Fresh" },
-      { "id": "gourmand",  "name": "Gourmand" },
-      { "id": "aquatic",   "name": "Aquatic" }
+      {
+        "id": "unisex-floral",
+        "name": "Floral"
+      },
+      {
+        "id": "unisex-oriental",
+        "name": "Oriental"
+      },
+      {
+        "id": "unisex-woody",
+        "name": "Woody"
+      },
+      {
+        "id": "unisex-fresh",
+        "name": "Fresh"
+      },
+      {
+        "id": "unisex-gourmand",
+        "name": "Gourmand"
+      },
+      {
+        "id": "unisex-aquatic",
+        "name": "Aquatic"
+      }
     ]
   },
   {
     "id": "collections",
     "name": "Collections",
     "subcategories": [
-      { "id": "signature",       "name": "Signature Collection" },
-      { "id": "limited-edition", "name": "Limited Edition" },
-      { "id": "seasonal",        "name": "Seasonal" },
-      { "id": "collaborations",  "name": "Collaborations" }
+      {
+        "id": "collections-signature",
+        "name": "Signature Collection"
+      },
+      {
+        "id": "collections-limitededition",
+        "name": "Limited Edition"
+      },
+      {
+        "id": "collections-seasonal",
+        "name": "Seasonal"
+      },
+      {
+        "id": "collections-collaborations",
+        "name": "Collaborations"
+      }
     ]
   },
   {
-    "id": "by-scent",
+    "id": "byscent",
     "name": "By Scent",
     "subcategories": [
-      { "id": "floral",    "name": "Floral" },
-      { "id": "oriental",  "name": "Oriental" },
-      { "id": "woody",     "name": "Woody" },
-      { "id": "fresh",     "name": "Fresh" },
-      { "id": "chypre",   "name": "Chypre" },
-      { "id": "gourmand",  "name": "Gourmand" },
-      { "id": "aquatic",   "name": "Aquatic" },
-      { "id": "fougere",   "name": "Fougère" }
+      {
+        "id": "byscent-floral",
+        "name": "Floral"
+      },
+      {
+        "id": "byscent-oriental",
+        "name": "Oriental"
+      },
+      {
+        "id": "byscent-woody",
+        "name": "Woody"
+      },
+      {
+        "id": "byscent-fresh",
+        "name": "Fresh"
+      },
+      {
+        "id": "byscent-chypre",
+        "name": "Chypre"
+      },
+      {
+        "id": "byscent-gourmand",
+        "name": "Gourmand"
+      },
+      {
+        "id": "byscent-aquatic",
+        "name": "Aquatic"
+      },
+      {
+        "id": "byscent-fougere",
+        "name": "Fougère"
+      }
     ]
   },
   {
-    "id": "gift-sets",
+    "id": "giftsets",
     "name": "Gift Sets",
     "subcategories": [
-      { "id": "gift-for-her",  "name": "For Her" },
-      { "id": "gift-for-him",  "name": "For Him" },
-      { "id": "gift-couples",  "name": "Couples" },
-      { "id": "gift-luxury",   "name": "Luxury Sets" },
-      { "id": "gift-discovery","name": "Discovery Sets" }
+      {
+        "id": "giftsets-forher",
+        "name": "For Her"
+      },
+      {
+        "id": "giftsets-forhim",
+        "name": "For Him"
+      },
+      {
+        "id": "giftsets-couples",
+        "name": "Couples"
+      },
+      {
+        "id": "giftsets-luxury",
+        "name": "Luxury Sets"
+      },
+      {
+        "id": "giftsets-discovery",
+        "name": "Discovery Sets"
+      }
     ]
   },
   {
     "id": "exclusives",
     "name": "Exclusives",
     "subcategories": [
-      { "id": "rare-ingredients",  "name": "Rare Ingredients" },
-      { "id": "numbered-editions", "name": "Numbered Editions" },
-      { "id": "atelier",           "name": "Atelier Line" }
+      {
+        "id": "exclusives-rareingredients",
+        "name": "Rare Ingredients"
+      },
+      {
+        "id": "exclusives-numberededitions",
+        "name": "Numbered Editions"
+      },
+      {
+        "id": "exclusives-atelier",
+        "name": "Atelier Line"
+      }
     ]
   }
 ]
