@@ -6,11 +6,21 @@
     text-align: center;
     /* "align yourself here when snapped", start means each tile's left edge aligns with the container's left edge once it snaps into place.*/
     scroll-snap-align: start;
+    padding: 10px;
 }
+
 
 .productimg img {
     width: 300px;
     height: 300px;
+}
+
+.product-occasion {
+    padding: 5px;
+}
+
+.product-gender {
+    padding: 5px;
 }
 
 .product-add-to-bag button {

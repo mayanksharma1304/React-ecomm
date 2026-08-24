@@ -3,3 +3,8 @@
     --color-gold: #BF9840;
     --color-text: #FAF7F0;
 }
+
+a {
+    color: inherit;
+    text-decoration: none;
+}

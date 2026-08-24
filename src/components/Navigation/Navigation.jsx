@@ -4,13 +4,13 @@ import "./Navigation.css";
 import { Link } from "react-router-dom";
 
 export default function Navigation() {
-  const [selectedCat, setSelectedCat] = useState("");
+  const [hoveredCat, setHoveredCat] = useState("");
 
   const handleMouseEnter = (event) => {
-    setSelectedCat(event.currentTarget.id);
+    setHoveredCat(event.currentTarget.id);
   };
   const handleMouseLeave = () => {
-    setSelectedCat("");
+    setHoveredCat("");
   };
 
   return (
@@ -24,12 +24,13 @@ export default function Navigation() {
               id={rootCat.id}
               onMouseEnter={handleMouseEnter}
               onMouseLeave={handleMouseLeave}
+              onClick={handleMouseLeave}
               className="primary-cat"
             >
               <span className="catName">
                 <Link to={`category/${rootCat.id}`}>{rootCat.name}</Link>
               </span>
-              <ul hidden={selectedCat != rootCat.id} className="subcat-list">
+              <ul hidden={hoveredCat != rootCat.id} className="subcat-list">
                 {rootCat.subcategories.map((subCat) => {
                   return (
                     <li key={subCat.id} name={subCat.name}>
