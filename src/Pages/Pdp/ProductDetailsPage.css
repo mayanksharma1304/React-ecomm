@@ -1,0 +1,68 @@
+#pdp-overview {
+    display: flex;
+    background: var(--color-bg);
+    color: var(--color-text);
+}
+
+#pdp-image {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+}
+#pdp-image img {
+    width: 100%;
+    height: 30rem;
+}
+
+#pdp-info {
+    flex: 1.5;
+    margin: 20px;
+    padding: 20px;
+}
+
+#pdp-info__Product-name {
+    font-size: 4rem;
+    font-weight: 500;
+    padding: 10px;
+}
+
+#pdp-info__Product-id {
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 10px;
+}
+
+#pdp-info__Product-rating {
+    padding: 10px;
+    color: var(--color-text);
+}
+
+#pdp-info__Product-rating_val {
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+#pdp-info__Product-price {
+    padding: 10px;
+}
+
+.pdp-info__accordion__notes_heading {
+    font-size: 1.5rem;
+    font-weight: 200px;
+}
+
+.pdp-info__accordion__notes_value li {
+    width: 100px;
+    margin: 0 auto;
+    list-style: disc;
+}
+
+
+#pdp-overview .MuiAccordion-root {
+  background-color: var(--color-gold);
+  color: var(--color-text);
+}
+
+.product-add-to-bag button {
+    margin-top: 10px;
+}

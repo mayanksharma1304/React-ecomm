@@ -1,9 +1,9 @@
 import "./ProductTile.css";
-import { formatter } from "../../utils/Utils.js";
 import { Link } from "react-router-dom";
+import { Rating } from "@mui/material";
+import AddToBagButton from "../AddToBagButton/AddToBagButton";
 
 export default function ProductTile({ product }) {
-  let productPrice = formatter.format(product.price * 95);
   return (
     <div className="product-tile">
       <Link to={`/product/${product.id}`}>
@@ -17,19 +17,13 @@ export default function ProductTile({ product }) {
             <span className="product-gender">{product.gender}</span>
           </div>
           <div className="product-rr-info">
-            <span className="product-rating">{product.rating}</span>
+            <span className="product-rating">
+              <Rating value={product.rating} precision={0.5} readOnly />
+            </span>
           </div>
         </div>
       </Link>
-      <div className="product-add-to-bag">
-        <button
-          id={`addToBag_${product.id}`}
-          name="addToBag"
-          data-id={product.id}
-        >
-          Add to Bag | {productPrice}
-        </button>
-      </div>
+      <AddToBagButton product={product} />
     </div>
   );
 }

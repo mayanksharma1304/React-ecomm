@@ -64,3 +64,14 @@ header {
 .logo {
     width: 40%;
 }
+
+#shopping-bag {
+    position: relative;
+}
+
+#shopping-bag__items-count {
+    position: absolute;
+    right: 1px;
+    bottom: 15px;
+    background-color: var(--color-bg);
+}
