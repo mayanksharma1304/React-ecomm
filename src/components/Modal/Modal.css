@@ -1,0 +1,30 @@
+.modal__outer-section {
+    position:fixed;
+    inset: 0;
+    display: flex;
+    z-index: 11;
+    background: rgba(0,0,0,0.6);
+    justify-content: center ;
+    align-items: center;
+}
+
+.modal__inner-section {
+    background: var(--color-bg);
+    color: var(--color-gold);
+    height: 90%;
+    width: 50%;
+    position: relative;
+}
+
+.modal-close {
+    position: absolute;
+    top: -12px;
+    right: -12px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--color-gold);
+    border: 2px solid var(--color-gold);
+    cursor: pointer;
+    
+}

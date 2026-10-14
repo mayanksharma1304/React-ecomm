@@ -12,3 +12,40 @@ a {
 li {
     list-style: none;
 }
+
+input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    border: 2px solid var(--color-gold);
+    background: var(--color-gold);
+    border-radius: 2px;
+    position: relative;
+}
+
+input[type="checkbox"]:checked {
+    background-color: var(--color-gold);
+    position: relative;
+}
+
+input[type="checkbox"]:checked::after {
+    content: "";
+    position: absolute;
+    left: 3px;
+    top: 0px;
+
+    width: 5px;
+    height: 10px;
+
+    border: solid var(--color-bg);
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    color: var(--color-bg)
+}
+
+/* Keyboard focus */
+input[type="checkbox"]:focus-visible {
+  outline: 2px solid var(--color-text);
+  outline-offset: 3px;
+}

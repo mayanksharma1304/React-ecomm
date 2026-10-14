@@ -59,6 +59,7 @@ header {
 .right-icons {
     flex: 1;
     text-align: right;
+    cursor: pointer;
 }
 
 .logo {
