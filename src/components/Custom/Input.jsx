@@ -1,4 +1,4 @@
-import { validateField } from "../../utils/Utils.js";
+import { useFormFieldErrorsContext } from "../../context/FormFieldErrorsContext";
 
 export default function Input({
   type,
@@ -7,34 +7,15 @@ export default function Input({
   placeholder,
   label,
   mandatory,
-  error,
-  setError,
 }) {
   let containerClass =
     type == "checkbox" ? "checkbox-container" : "input-container";
 
-  const handleInputOnBlur = (event) => {
-    if (!error.isEdited) {
-      setError((prevError) => ({
-        ...prevError,
-        isEdited: true,
-      }));
-    }
-    let field = event.target;
-    let { errorMsg } = validateField(field);
+  let { fieldErrors } = useFormFieldErrorsContext();
 
-    setError((prevError) => {
-      if (!errorMsg) {
-        const { [field.name]: _, ...rest } = prevError;
-        return rest;
-      }
+  const fieldError = fieldErrors.find((error) => error.name === name);
 
-      return {
-        ...prevError,
-        [field.name]: errorMsg,
-      };
-    });
-  };
+  const errorMsg = fieldError?.isEdited ? fieldError.errorMsg : "";
 
   return (
     <div className={containerClass}>
@@ -44,10 +25,9 @@ export default function Input({
         id={id}
         placeholder={placeholder ? placeholder : " "}
         required={mandatory ? true : false}
-        onBlur={handleInputOnBlur}
       />
       <label htmlFor={id}>{label}</label>
-      <span id={`${id}-error`}>{error && error[name] ? error[name] : ""}</span>
+      <span id={`${id}-error`}>{errorMsg && errorMsg}</span>
     </div>
   );
 }

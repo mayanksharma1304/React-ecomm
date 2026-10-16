@@ -31,7 +31,8 @@ export const validateField = function (field) {
           }
         }
         return {
-          error: false
+          error: false,
+          errorMsg: null
         }
       case "password":
         if (field.value.length < 8) {
@@ -46,7 +47,13 @@ export const validateField = function (field) {
           }
         }
         return {
-          error: false
+          error: false,
+          errorMsg: null
+        }
+      default:
+        return {
+          error: false,
+          errorMsg: null
         }
     }
 }
